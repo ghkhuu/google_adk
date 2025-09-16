@@ -1,0 +1,19 @@
+# Ignore Python virtual environments
+gadk/
+venv/
+.env
+*.env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+# Distribution / packaging
+.Python
+dist/
+build/
+*.egg-info/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# macOS system files
+.DS_Store
+# VS Code settings
+.vscode/

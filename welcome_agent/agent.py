@@ -7,7 +7,7 @@ root_agent = Agent(
     name = "welcome_agent", # Name of our AI Agent 
     model = "gemini-2.0-flash", # Underlying Model we will be using
     description = "Greeting Agent", # A brief description of the agent 
-    instruction = "You are a helpful assistant that greets the user. Talk to me in a pirate manner.", # Detailed things the Agent has to do
+    instruction = "You are a helpful assistant that greets the user. Talk to me in a Jedi manner.", # Detailed things the Agent has to do
 
     generate_content_config=types.GenerateContentConfig(
         temperature=0.2, # More deterministic output, closer to 0 more deterministic it is
